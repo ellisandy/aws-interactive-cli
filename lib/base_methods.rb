@@ -1,4 +1,5 @@
 require 'aws-sdk'
+require 'questions'
 
 class BaseMethods
   

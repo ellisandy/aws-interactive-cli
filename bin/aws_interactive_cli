@@ -1,0 +1,10 @@
+#! /usr/bin/env ruby
+
+require 'configuration'
+require 'base_methods'
+
+configuration = StartingConfiguration.config
+
+BaseMethods.start_over("none")
+
+exit

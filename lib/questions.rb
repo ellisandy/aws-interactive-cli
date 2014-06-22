@@ -2,9 +2,9 @@ require 'rubygems'
 require 'highline/import'
 require 'aws-sdk'
 require 'terminal-table'
-require '../lib/configuration'
-require '../lib/base_methods'
-require '../lib/questions'
+require 'configuration'
+require 'base_methods'
+
 
 class Questions
   def region

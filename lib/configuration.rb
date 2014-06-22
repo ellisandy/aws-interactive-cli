@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'highline/import'
 require 'aws-sdk'
+require 'base_methods'
 
 class StartingConfiguration
 
