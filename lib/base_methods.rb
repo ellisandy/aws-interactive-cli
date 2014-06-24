@@ -7,9 +7,10 @@ class BaseMethods
   def self.describe_regions
     regions = AWS::Core::RegionCollection.new
     @array = []
-    regions.each do | region |
-      @array << region.name
-    end
+    regions.each { |region| @array << region.name }
+    # regions.each do | region |
+    #   @array << region.name
+    # end
   end
   
   # Returns array of instances in specific region

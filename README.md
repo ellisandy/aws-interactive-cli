@@ -1,24 +1,24 @@
-# Cthulhu
+# AWSInteractiveCLI
 
-TODO: Write a gem description
+#TODO Add Elastic Beanstalk Management
+#TODO Terminate all "Daily" instances
+#TODO Remove SSH if keypair is not given
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Run the following command to install the AWSInstanceCLI
 
-    gem 'cthulhu'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install cthulhu
+    gem install 'aws_interactive_cli'
 
 ## Usage
 
-TODO: Write usage instructions here
+The first time you run the aws_interactive_cli the program checks for ~/.aws-config.yml. If the file is not found the program will ask for your access key, secret key, and the path to your keypair. Provided that you are executing this program on an instance and do not have access to your keypairs, the script will automatically disable the "SSH" functionality. All other functionality (should) still work.
+
+Please report bugs you are seeing (or even better--debug them yourself), so this can become an easy, useful tool. 
+
+Feedback and feature requests are welcome
+
+Enjoy!
 
 ## Contributing
 
